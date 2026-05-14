@@ -1,0 +1,15 @@
+ Right click on VM1 -> go to settings -> Go to network -> Attached to -> Nat Network (same for VM2)
+
+  -Commands To Execute on VM1:
+  ifconfig
+  ls
+  touch file1.txt
+  cat file1.txt
+  nano file1.txt
+  cat file1.txt
+  scp file1.txt vagrant@ip_address_of_VM2:/home/vagrant
+
+ -Commands To Execute on VM2:
+  ifconfig
+  ls 
+  cat file1.txt
