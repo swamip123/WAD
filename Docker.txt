@@ -1,0 +1,36 @@
+  Create any file with any extension( such as .js, .txt, .py, etc....) 
+  File: file.extension
+ 
+ -The file contains the following code:
+  console.log("Name: Swami Patil");
+  console.log("Class: TE-IT");
+  console.log("Subject: LP-II Web Application Development");
+  console.log("We are implementing DockerFile");
+
+  Create file in the same folder with file name as- Dockerfile
+  File: Dockerfile 
+   
+ -Write following code in Dockerfile and save it.:
+  FROM node: alpine
+  COPY . /folder
+  CMD node /folder/file.extension
+
+  docker --version
+
+  node file.extension
+
+  docker build -t folder . 
+ 
+  docker images
+
+
+
+git --version
+git init 
+git status
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin "link"
+git push -u origin main
+git status
