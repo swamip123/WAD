@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stylish Mobile Website</title>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  <!-- jQuery Mobile -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<!-- HOME PAGE -->
+<div data-role="page" id="home">
+
+  <div data-role="header">
+    <h1>My Mobile App</h1>
+  </div>
+
+  <div data-role="content">
+
+    <div class="card center">
+      <h2>Welcome 👋</h2>
+      <p>Beautiful mobile website using jQuery Mobile</p>
+    </div>
+
+    <a href="#about" data-role="button">About</a>
+    <a href="#contact" data-role="button">Contact</a>
+
+  </div>
+
+  <div data-role="footer">
+    <h4>© 2026 Mobile App</h4>
+  </div>
+
+</div>
+
+<!-- ABOUT PAGE -->
+<div data-role="page" id="about">
+
+  <div data-role="header">
+    <h1>About</h1>
+  </div>
+
+  <div data-role="content">
+
+    <div class="card">
+      <h3>About This App</h3>
+      <p>This mobile website is designed with modern UI styles.</p>
+    </div>
+
+    <a href="#home" data-role="button">Back</a>
+
+  </div>
+
+</div>
+
+<!-- CONTACT PAGE -->
+<div data-role="page" id="contact">
+
+  <div data-role="header">
+    <h1>Contact</h1>
+  </div>
+
+  <div data-role="content">
+
+    <div class="card">
+      <h3>Contact Us</h3>
+
+      <form id="contactForm">
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Enter name">
+
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Enter email">
+
+        <label>Message:</label>
+        <textarea id="message" placeholder="Enter message"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <a href="#home" data-role="button">Back</a>
+
+  </div>
+
+</div>
+
+<!-- External JS -->
+<script src="script.js"></script>
+
+</body>
+</html>

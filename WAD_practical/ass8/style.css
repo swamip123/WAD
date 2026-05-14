@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Gradient Header */
+.ui-header {
+  background: linear-gradient(45deg, #6a11cb, #2575fc) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.ui-title {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Card Style */
+.card {
+  background: white;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.ui-btn {
+  background: linear-gradient(45deg, #ff7e5f, #feb47b) !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 25px !important;
+  font-weight: bold;
+}
+
+.ui-btn:hover {
+  background: linear-gradient(45deg, #ff6a4a, #fda763) !important;
+}
+
+/* Input fields */
+input, textarea {
+  border-radius: 10px !important;
+  padding: 10px !important;
+}
+
+/* Footer */
+.ui-footer {
+  background: #222 !important;
+  color: white !important;
+  text-align: center;
+}
+
+/* Center text */
+.center {
+  text-align: center;
+}
