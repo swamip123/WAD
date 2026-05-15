@@ -17,6 +17,8 @@ gcloud init  #Initialize SDK
 mkdir hello-python
 cd hello-python    #Create Folder
 
+nano app.py
+
 from flask import Flask
 
 app = Flask(__name__)
@@ -34,6 +36,7 @@ nano requirements.txt   #Create requirements.txt
 Flask==2.3.2
 gunicorn==21.2.0
 
+pip install flask gunicorn
 
 nano app.yaml   #create app.yaml
 runtime: python39
